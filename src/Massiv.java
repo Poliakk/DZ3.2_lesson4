@@ -34,12 +34,12 @@ public class Massiv {
             }
         }
         //Нахождение количества нулевых элементов
-        int nullCount = arr.length - pozCount - negCount;
+        int zeroCount = arr.length - pozCount - negCount;
         //Нахождение среднего
         int average = (pozSum + negSum) / arr.length;
         //Вывод в консоль результатов
         System.out.println("\n\nКоличество элементов\nположительных: " + pozCount + "\nотрицательных: " + negCount +
-                "\nнулевых: " + nullCount);
+                "\nнулевых: " + zeroCount);
         System.out.println("\nСумма элементов\nположительных: " + pozSum + "\nотрицательных: " + negSum +
                 "\n\nСреднее по массиву: " + average);
 
